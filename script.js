@@ -10,10 +10,11 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-    var userArray = [   // Comma separated list of user IDs go here
-                        58241,
-                        58135,
-                        22891,
+    var userArray = [   // Comma separated list of user IDs go here. Preloaded with your favorites.
+                        58241,        // NasWulf
+                        58135,        // RedEye9
+                        22891,        // theyarecomingforyou
+                        58443,        // Agent-Zero
                     ];
     var userProfileURL = "board.pl?action=userinfo&user=";
     $.each( userArray, function( i, val ) {
