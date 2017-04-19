@@ -10,15 +10,12 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-    var userArray = [
-                        // Put user IDs here
+    var userArray = [   // Comma separated list of user IDs go here
                         58241,
                         58135,
                         22891,
                     ];
-    console.log(userArray);
     var userProfileURL = "board.pl?action=userinfo&user=";
-    var userProfile = userProfileURL + userID;
     var cnt = 0;
     $.each( userArray, function( i, val ) {
         $.each($("#BluesNews-Main .content table .content table font a"), function(index, value) {
