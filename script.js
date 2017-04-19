@@ -10,7 +10,6 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-    var userID = 58135;
     var userArray = [
                         // Put user IDs here
                         58241,
