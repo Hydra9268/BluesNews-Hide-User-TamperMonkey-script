@@ -16,7 +16,6 @@ $(document).ready(function() {
                         22891,
                     ];
     var userProfileURL = "board.pl?action=userinfo&user=";
-    var cnt = 0;
     $.each( userArray, function( i, val ) {
         $.each($("#BluesNews-Main .content table .content table font a"), function(index, value) {
             if ($(this).attr("href").substring(0, 30) == userProfileURL)
@@ -25,7 +24,6 @@ $(document).ready(function() {
                 {
                     if ($(this).attr("href").substring(30,50) == val)
                     {
-                        cnt++;
                         $(this).parents().eq(4).attr("style","display:none;");
                     }
                 }
