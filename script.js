@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-    var userArray = [   // Comma separated list of user IDs go here. Preloaded with your favorites.
+    var userArray = [   // Comma separated list of user IDs go here. Preloaded with a few of your favorites.
                         58241,        // NasWulf
                         58135,        // RedEye9
                         22891,        // theyarecomingforyou
